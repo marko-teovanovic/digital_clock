@@ -1,0 +1,25 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34; 
+    color: #61dafb; 
+}
+
+.clock {
+    font-size: 250px;
+    text-align: center;
+    animation: colorChange 5s infinite alternate; 
+}
+
+@keyframes colorChange {
+    from {
+        color: #ff20b5;
+    }
+    to {
+        color: #ff0000;
+    }
+}
